@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- inserir comentario -->
+
+<head>
+    <!-- Adiciona titulo à página -->
+    <title>Currículo - Victor Hugo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class=container>
+    <!-- Section separa a página em sessões -->
+    <section>
+        <h1>Currículo</h1>
+        <h3>Victor Hugo Hugo Borges França Souza</h3>
+        <img class="foto-perfil" src="https://avatars.githubusercontent.com/u/127329074?v=4">
+    </section>
+    <!-- Sessão informações pessoais -->
+    <section1>
+        <h2>Informações pessoais:</h2>
+        <ul> 
+        <!-- ul = lista não ordenada & ol = lista ordenada -->
+            <li>Sexo masculino;</li>
+            <li>Nascimento 16/01/1997;</li>
+            <li>Solteiro;</li>
+            <li>Bacharel em Direito - UNESA;</li>
+            <li>Residente em Software (SENAI/Serratec).</li>
+        </ul>
+    </section1>
+    <!-- Sessão contatos -->
+    <!-- COM LINKS e envio de e-mail -->
+    <section2>
+        <h2>Contatos:</h2>
+        <ul>
+            <a class="telefone" href="callto:+5524988480655" target="_blank"><button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Eybb8z4oLUzpJfq4zz7TemXRPBVoqUsusg&usqp=CAU"></button></a>
+            <a class="e-mail" href="mailto:vh.borgesfs@gmail.com" target="_blank"><button><img src="data:image/png;base64,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"></button></a>
+            <a class="linkedin" href="https://www.linkedin.com/in/victorhbfsouza/" target="_blank"><button><img src="data:image/png;base64,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"></button></a>
+            <a class="github" href="https://github.com/victorhbfsouza" target="_blank"><button><img src="https://cdn-icons-png.flaticon.com/512/733/733609.png"></button></a>
+            <!-- <li>Telefone: <a href="callto:+5524988480655">(24) 98848-0655</a></li> -->
+            <!-- <li>E-mail: <a href="mailto:vh.borgesfs@gmail.com"> vh.borgesfs@gmail.com;</a></li> -->
+            <!-- <li><a href="https://www.linkedin.com/in/victorhbfsouza/"> Clique aqui e acesse meu Linkedin; </a></li> -->
+            <!-- <li><a href="https://github.com/victorhbfsouza"> Clique aqui e acesse meu Github. </a></li> -->
+        </ul>
+    </section2>
+    <!-- Sessão soft skills -->
+    <section3>
+        <h2>Soft Skills:</h2>
+        <ul>
+            <li>Comunuicação;</li>
+            <li>Comprometimento;</li>
+            <li>Pontualidade;</li>
+            <li>Trabalho em equipe.</li>
+        </ul>
+    </section3>
+    <section5>
+    <!-- Sessão cursos e certificações -->
+        <h2>Cursos e Certificações:</h2>
+        <ul>
+            <li>Operador de Suporte Técnico em Redes (SENAI);</li>
+            <li>Student to Business - S2B (Microssoft);</li>
+            <li>Instrumentação Industrial (SENAI);</li>
+            <li>Desenvolvedor Fullstack (SENAI/SERRATEC) - previsão de término 07/2023;</li>
+            <li>Scrum Fundamentals Certified (SFC).</li>
+        </ul>
+    </section5>
+    <!-- Sessão experiências profissionais -->
+    <section6>
+        <h2>Experiências profissionais:</h2>
+        <ul>
+            <li>Sermograf Artes Graficas e Editora LTDA - Jovem Aprendiz (06/2013 - 05/2014)</li>
+            <li>Erwil Construções LTDA - Aprendiz Administrativo (11/2014 - 12/2015)</li>
+            <li>Marcelo's Auto Escola - Atendente (08/2017 - 10/2017)</li>
+            <li>Immobile Administradora de Bens LTDA - Auxiliar de Serviços Jurídicos (10/2017 - 02/2023)</li>
+        </ul>
+    </section6>
+</div>
+</body>
+
+</html>

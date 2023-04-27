@@ -1,0 +1,20 @@
+img{
+    text-align: center;
+    border-radius: 200%;
+    max-width: 200px;
+    border:2px solid black;
+}
+
+section2 img{
+    max-width: 50px;
+    border:1px solid black;
+}
+
+body{
+    text-align: center;
+    background-color:rgb(61, 61, 61)
+}
+
+class1{
+    bottom: unset;
+}
