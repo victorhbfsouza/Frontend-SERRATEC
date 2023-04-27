@@ -1,20 +1,50 @@
 img{
     text-align: center;
-    border-radius: 200%;
-    max-width: 200px;
-    border:2px solid black;
+    border-radius: 250%;
+    max-width: 250px;
+    border:2px solid white;
 }
 
-section2 img{
+section1 img{
     max-width: 50px;
-    border:1px solid black;
+    border:1px solid white;
+}
+button{
+    background-color: transparent;
 }
 
 body{
     text-align: center;
-    background-color:rgb(61, 61, 61)
+    forced-color-adjust: white;
+    /* Abaixo como adicionar imagem por URL */
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/8/92/background-rainbow-colors-ogni-lights-neonovyi-neon-fon-abst.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color:rgb(61, 61, 61) */
 }
 
-class1{
-    bottom: unset;
+p{
+    color: white;
+    font-size: 50px;
+    border: black;
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+    font-size: 38px;
+    border: black;
+    text-decoration: underline;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    border: black;
+}
+
+ul{
+    color: white;
+    font-size: 23px;
+    border: black;
 }
