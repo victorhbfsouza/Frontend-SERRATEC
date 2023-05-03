@@ -17,14 +17,14 @@ p{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    opacity: 0.6;
 }
 
 .cadastro {
-    background-color: white;
+    background-color: rgba(255,255,255,0.95);
     padding: 40px;
     border-radius: 2px;
     width:280px;
+    opacity: 0.75;
 }
 
 .titulo {
