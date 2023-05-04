@@ -11,35 +11,66 @@
 </head>
 
 <body>
+    <header>
+        <header>
+            <div id="headerContainer">
+              <div id="title">
+                <div id="imgTitle">
+                  <img src="../assets/logoMarca.png" alt="Logo da Loja" />
+                </div>
+                <div id="carrinhoTitle">
+                  <a href="../html/carrinho.html"
+                    ><img src="../assets/carrinho.png" alt="Carrinho de Compras"
+                  /></a>
+                </div>
+              </div>
+              <div id="links">
+                <div class="linksCentrais">
+                  <a href="../html/home.html">Home</a>
+                  <a href="../html/shop.html">Shop</a>
+                  <a href="../html/aboutUs.html">About us</a>
+                </div>
+                <div class="linkLateral">
+                  <a href="../html/login.html">Login</a>
+                </div>
+              </div>
+            </div>
+          </header>
+    </header>
     <div id="container">
-        <form class="cadastro">
-            <div class="titulo">
+        <form class="register">
+            <div class="title">
                 <h2>Cadastro</h2>
             </div>
             <div class="card-content">
                 <div class="card-content-area">
-                    <label for="usuario">E-mail:</label>
-                    <input type="text" id="usuario" autocomplete="off">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
                 </div>
                 <div class="card-content-area">
                     <label for="password">Senha:</label>
-                    <input type="password" id="password" autocomplete="off">
+                    <input type="password" id="password" autocomplete="off"required>
                 </div>
                 <div class="card-content-area">
                     <label for="password">Confirmação de senha:</label>
-                    <input type="password"  id="check-password" autocomplete="off">
+                    <input type="password" id="check-password" autocomplete="off"required>
                 </div>
                 <div class="card-content-area">
-                    <label for="endereço">Endereço:</label>
-                    <input type="text" id="endereço" autocomplete="off">
+                    <label for="endereço">Endereço completo:</label>
+                    <input type="text" id="endereço" autocomplete="off"required>
                 </div>
-                            </div>
+            </div>
             <div class="card-footer">
                 <input type="submit" value="Cadastrar" class="submit">
             </div>
-            <div><p><a href="tela login">Já é cliente? Clique aqui e faça login.</a></p></div>
+            <div>
+                <p><a href="login.html">Já é cliente? Clique aqui e faça login.</a></p>
+            </div>
         </form>
     </div>
+    <footer class = "containerFooter">
+        
+    </footer>
 </body>
 
 </html>
