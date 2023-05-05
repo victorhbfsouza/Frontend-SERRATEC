@@ -76,6 +76,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="carrinho.html">Carrinho</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -94,17 +97,16 @@
             <button
               class="botaoVS btn-default"
               type="button"
-              onclick="olharSenha()"
+              onclick="olharSenha(olharConfirmacaoSenha())"
             ></button>
             </div>
             <label for="password">Confirmação de senha</label>
             <div class="divConfirmacaoSenha">
             <input type="password" id="confirmacaoSenha" autocomplete="off"required/>
-            <!-- ATENÇÃO ACIME PARA LER ARQUIVO ID = -->
             <button
              class="botaoVS btn-default"
               type="button"
-              onclick="olharConfirmacaoSenha()"
+              onclick="olharConfirmacaoSenha(olharSenha())"
             ></button>
           </div>
           <label for="address">Endereço completo</label>
@@ -113,7 +115,6 @@
           <a href="login.html"> Já é cliente? Clique aqui e faça login.</a>
         </div>
       </div>
-      <script src="../js/cadastro.js"></script>
     </main>
     <footer><!-- Ainda será desenvolvido --></footer>
   </body>
