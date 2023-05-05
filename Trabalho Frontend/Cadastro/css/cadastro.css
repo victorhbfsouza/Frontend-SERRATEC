@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27');
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+
+.offcanvas-body{
+    font-size: 20px;
+}
+
+a .nav-item{
+    font-weight: bold;
+}
+body {
+    margin-top: 90px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco: #eaeff1;
+    --roxo: #451f4e;
+    --violeta: #73256b;
+    --vermelho: #bc1c2d;
+    --azul: #14017c;
+    --preto: black;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+
+.offcanvas-body{
+    font-size: 20px;
+}
+
+a .nav-item{
+    font-weight: bold;
+}
+
+body {
+    color: var(--preto);
+    margin-top: 90px;
+}
+
+/* Main */
+
+.pageRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.divRegister {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 25em;
+    border-radius: 7px;
+    padding: 30px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    opacity: 0.8;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 15px;
+    font-size: 1.3em;
+    border: 1px solid var(--violeta);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.divRegister input:focus {
+    border: 1px solid var(--roxo);
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: var(--preto);
+    cursor: pointer;
+    transition: all linear 160ms;
+}
+
+a:hover {
+    color: var(--violeta);
+}
+
+.divSenha {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.divConfirmacaoSenha {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+#senha {
+    width: 90vw;
+    margin-bottom: 5px;
+}
+
+#confirmacaoSenha {
+    width: 90vw;
+    margin-bottom: 5px;
+}
+
+.divSenha button {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: 5vw; 
+    height: 30px;
+    border: none;
+    cursor: pointer; 
+
+    background-image: url(../assets/olho.png);
+    background-color: var(--branco);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.divConfirmacaoSenha button {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: 5vw; 
+    height: 30px;
+    border: none;
+    cursor: pointer; 
+
+    background-image: url(../assets/olho.png);
+    background-color: var(--branco);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.botaoVS {
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 23px !important;
+    width: 23px !important;
+    background-image: url('caminho_para_o_icone_de_visualização_da_senha.png');
+    opacity: 0.4;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: var(--violeta);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all linear 160ms;
+    cursor: pointer; 
+    padding: 15px;
+    border: 1px solid var(--violeta);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: var(--roxo);
+}
