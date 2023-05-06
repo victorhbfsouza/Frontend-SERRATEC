@@ -1,35 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27%27');
 
-.navbar-brand{
+.navbar-brand {
     font-size: 3rem;
     font-weight: bold;
     color: red;
+    margin: 0;
+    padding: 0;
 }
 
-.offcanvas-body{
+.logo {
+    margin: 0;
+    max-width: 150px;
+}
+
+.offcanvas-body {
     font-size: 20px;
 }
 
-a .nav-item{
-    font-weight: bold;
+.navbar-toggler-icon {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url("../assets/background-img/hamburguer.png");
 }
-body {
-    margin-top: 90px;
+
+.navbar-toggler {
+    border: 1px solid rgb(225, 225, 225);
+}
+
+/* .navbar-brand img {
+    max-width: 150px;
+    border: 1px solid red;
+    height: auto;
+    width: 30%;
+} */
+
+a .nav-item {
+    font-weight: bold;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-:root{
-    --branco: #eaeff1;
-    --roxo: #451f4e;
-    --violeta: #73256b;
-    --vermelho: #bc1c2d;
-    --azul: #14017c;
-    --preto: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .navbar-brand{
@@ -52,6 +63,15 @@ body {
 }
 
 /* Main */
+
+:root{
+    --branco: #eaeff1;
+    --roxo: #451f4e;
+    --violeta: #73256b;
+    --vermelho: #bc1c2d;
+    --azul: #14017c;
+    --preto: black;
+}
 
 .pageRegister {
     display: flex;
@@ -84,11 +104,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 35px;
 }
 
 input {
     padding: 15px;
-    font-size: 1.3em;
+    font-size: 20px;
     border: 1px solid var(--violeta);
     margin-bottom: 20px;
     margin-top: 5px;
@@ -102,8 +123,8 @@ input {
 }
 
 label {
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 a {
@@ -120,29 +141,22 @@ a:hover {
     color: var(--violeta);
 }
 
+#email {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
 .divSenha {
     display: inline-flex;
     justify-content: center;
     align-content: center;
     gap: 20px;
     position: relative;
-}
-
-.divConfirmacaoSenha {
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    gap: 20px;
-    position: relative;
+    width: 100%;
 }
 
 #senha {
-    width: 90vw;
-    margin-bottom: 5px;
-}
-
-#confirmacaoSenha {
-    width: 90vw;
+    width: 100%;
     margin-bottom: 5px;
 }
 
@@ -153,13 +167,32 @@ a:hover {
     width: 5vw; 
     height: 30px;
     border: none;
-    cursor: pointer; 
+    cursor: pointer;
 
     background-image: url(../assets/olho.png);
     background-color: var(--branco);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.divConfirmacaoSenha {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+#confirmacaoSenha {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#endereco {
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .divConfirmacaoSenha button {
@@ -193,10 +226,10 @@ a:hover {
     cursor: pointer;
 }
 
-.btn {
-    background-color: var(--violeta);
+.submit {
+    background-color:#5d051f;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 25px;
     font-weight: 600;
     transition: all linear 160ms;
     cursor: pointer; 
@@ -206,9 +239,14 @@ a:hover {
     margin-top: 5px;
     border-radius: 4px;
     outline: none;
+    width: 100%;
 }
 
-.btn:hover {
+.submit:hover {
     transform: scale(1.05);
-    background-color: var(--roxo);
+    background-color: #89192e;
+}
+
+a{
+    font-size: 20px;
 }
