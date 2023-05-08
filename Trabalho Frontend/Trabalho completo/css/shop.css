@@ -1,0 +1,367 @@
+:root {
+    --first-color: #5d051f;
+    --second-color: #89192e;
+    --third-color: #ba6e7e;
+    --fourth-color: #d4cdce; /*cinza*/
+    --white-color: #FFF;
+    --black-color: #000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    font-size: 15px
+}
+p{
+    font-size: 15px
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin: 0;
+    max-width: 150px;
+}
+
+.offcanvas-body {
+    font-size: 20px;
+}
+.navbar-toggler-icon {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url("../assets/background-img/hamburguer.png");
+}
+.navbar-toggler {
+    border: 1px solid rgb(225, 225, 225);
+
+}
+
+/* .navbar-brand img {
+    max-width: 150px;
+    border: 1px solid red;
+    height: auto;
+    width: 30%;
+} */
+
+a .nav-item {
+    font-weight: bold;
+}
+
+body {
+    color: var(--preto);
+    margin-top: 90px;
+}
+
+body,html {
+    margin: 0;
+    max-height: 100%;
+}
+
+#searchTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#searchForm input {
+    width: 350px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(186, 186, 186);
+    border-right: none;
+}
+
+#searchForm button {
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid var(--first-color);
+    background-color: var(--third-color);
+    transition: filter 0.4s;
+}
+
+#searchForm button:hover {
+    filter: brightness(0.9);
+}
+
+
+#searchForm button img {
+    width: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: uppercase;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    margin-top: 92px;
+}
+
+#pageTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+#searchCountryOrPlayer {
+    width: 500px;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#form {
+    width: 40%;
+    height: 20%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+#searchForm input {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(186, 186, 186);
+    border-right: none;
+}
+
+.countryContainer img {
+    width: 50px;
+    height: 30px;
+}
+
+#showcaseContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1em;
+    border-left: 1px gray;
+    border-top: 1px gray;
+    padding: 10px;
+}
+
+.sticker {
+    background-color: #f5ecec;
+    border: outset;
+}
+.sticker:hover {
+    border: inset;
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s ease;
+}
+
+#caseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    border-left: 1px solid rgb(214, 214, 214);
+}
+
+.sticker img {
+    width: 115px;
+    height: 147px;
+}
+
+#cartContainer {
+    padding: 0 20px;
+    border-left: 1px solid rgb(214, 214, 214);
+    min-width: 200px;
+    text-align: center;
+}
+
+#categoriesContainer {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.h2-selecoes{
+    padding: 30px 0 10px 0;
+}
+
+/*FOOTER*/
+#container-footer {
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    margin: 0;
+    /* padding: 2rem 4rem; */
+}
+
+#container-footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+
+}
+
+#container-footer-logo img {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.logo-g4-figurinhas {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-g4-figurinhas img {
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+#contact img {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#contact1 {
+    display: flex;
+    min-width: 295px;
+}
+
+#social-media-icons img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+
+#social-media-icons {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#logo-serratec img {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-serratec {
+    display: flex;
+    align-items: center;
+    min-width: 245px;
+}
+
+
+#Copy {
+
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+#Copy p {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+
+/*BUTTOM-UP-ARROW*/
+
+#divfix {
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    position: fixed;
+    /* z-index: 3000; */
+}
+#up-arrow img{
+    height: 150px;
+    width: 150px;
+}
+
+#up-arrow img:hover{
+    content: url("../assets/img/footer-img/upward-wine.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }
+
+
+/*BUTTOM-UP-ARROW*/

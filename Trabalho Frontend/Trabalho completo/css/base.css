@@ -1,0 +1,17 @@
+
+
+
+:root {
+    --first-color: #5d051f;
+    --second-color: #89192e;
+    --third-color: #ba6e7e;
+    --fourth-color: #d4cdce; /*cinza*/
+    --white-color: #FFF;
+    --black-color: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

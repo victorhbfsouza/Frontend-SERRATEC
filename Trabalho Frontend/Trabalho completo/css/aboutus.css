@@ -1,0 +1,273 @@
+
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin: 0;
+    max-width: 150px;
+}
+
+.offcanvas-body {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url("../assets/backgroud/hamburguer.png");
+}
+
+.navbar-toggler {
+    border: 1px solid rgb(225, 225, 225);
+}
+
+a .nav-item {
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+
+.offcanvas-body{
+    font-size: 20px;
+}
+
+a .nav-item{
+    font-weight: bold;
+}
+
+body {
+    color: var(--preto);
+    margin-top: 90px;
+}
+
+/* FOOTER */
+
+#container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%; 
+    margin: 0;
+    padding: 2rem 4rem;
+}
+
+#container-footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+}
+
+#container-footer-logo img {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.logo-g4-figurinhas {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-g4-figurinhas img {
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+#contact img {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#contact1 {
+    display: flex;
+    min-width: 295px;
+}
+
+#social-media-icons img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#social-media-icons {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#logo-serratec img {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-serratec {
+    display: flex;
+    align-items: center;
+    min-width: 245px;
+}
+
+
+#Copy {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Copy p {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+/* ABOUT US */
+
+
+.background {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../assets/backgroud/backgound.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.backgound {
+    height: 400px;
+}
+
+
+.container-fluid {
+    background-color: white;
+    margin: 0;
+    padding: 0%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 230px;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at 26.17% 50%, #ffffff 0, #ffffff 12.5%, #fffbfc 25%, #f8e9ec 37.5%, #ad5573 50%, #ad5577 62.5%, #ad5581 75%, #ad5585 87.5%, #ad5590 100%);
+    border-top: 2px solid gray;
+}
+
+
+.Photo {
+    display: flex;
+    width: 150px;
+    
+}
+
+.Photo img {
+   
+    border-radius: 50%;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 10px;
+}
+
+.About img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+}
+
+
+.About {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:800px;
+}
+
+.text p{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+    
+
+
+#divfix {
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    position: fixed;
+ 
+}
+#up-arrow img{
+    height: 150px;
+    width: 150px;
+}
+
+#up-arrow img:hover{
+    content: url("../assets/icons/upward-wine.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }

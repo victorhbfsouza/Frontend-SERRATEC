@@ -1,0 +1,442 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+
+}
+
+/*HEADER*/
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin: 0;
+    max-width: 150px;
+}
+
+.offcanvas-body {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url("../assets/background-img/hamburguer.png");
+}
+
+.navbar-toggler {
+    border: 1px solid rgb(225, 225, 225);
+
+}
+
+a .nav-item {
+    font-weight: bold;
+}
+
+body {
+    color: var(--preto);
+    margin-top: 90px;
+}
+
+/*HEADER*/
+
+
+#container-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* -------------------------------------------------------------------- */
+/* --------------------------container-home1--------------------------- */
+/* -------------------------------------------------------------------- */
+
+#text {
+    text-transform: uppercase;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.text2 {
+    font-size: 50px;
+}
+
+.text3 {
+    font-size: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+
+
+#container-home-1 h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#container-home-1 {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("../assets/img/background-img/background6.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+.shop-button {
+    color: #fff;
+    text-transform: uppercase;
+    width: 150px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: var(--first-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.shop-button:hover {
+    background: var(--second-color);
+    transform: scale(1.05);
+}
+
+/* -------------------------------------------------------------------- */
+/* --------------------------container-home2--------------------------- */
+/* -------------------------------------------------------------------- */
+
+#container-home-2 h2,
+p {
+    text-align: left;
+    padding: 10px;
+}
+
+#container-home-2 p {
+    font-size: 20px;
+}
+
+#container-home-2 {
+    /* background-color: var(--third-color); */
+
+    background: radial-gradient(circle at 85% 73%, #ffffff 0, #ffffff 12.5%, #fffbfc 25%, #f8e9ec 37.5%, #ad5573 50%, #ad5577 62.5%, #ad5581 75%, #ad5585 87.5%, #ad5590 100%);
+    font-size: 100px;
+    /* border: 3px solid red; */
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* gap: 10px; */
+
+}
+
+#description {
+    /* border: 3px solid green; */
+    margin: 0;
+    height: 100%;
+    min-width: 30%;
+    max-width: 50%;
+}
+
+@media (max-width: 1300px) {
+    #container-home-2 {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #description {
+        max-width: 800px;
+    }
+
+    #description h2 {
+        text-align: center;
+    }
+
+    .title-bt h2 {
+        text-align: center !important;
+    }
+
+    .carousel-item .img-fluid {
+        max-width: 200px;
+    }
+
+}
+
+
+/*********************************************************************/
+/* Bootstrap 4 Multiple Item Carousel */
+/*********************************************************************/
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+}
+
+
+.col-lg-2,
+.col-md-3 {
+    margin: 0 !important;
+    padding: 4px !important;
+}
+
+.font-weight-light {
+    margin: 0;
+}
+
+.container {
+    margin: 0 !important;
+    /* border: 3px solid black; */
+    height: 100% !important;
+}
+
+.carousel-item .img-fluid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* -------------------------------------------------------------------- */
+/* --------------------------container-home3--------------------------- */
+/* -------------------------------------------------------------------- */
+
+#container-home-3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid rgb(255, 225, 225);
+    background: radial-gradient(circle at 10% 43%, #ffffff 0, #ffffff 12.5%, #fffbfc 25%, #f8e9ec 37.5%, #ad5573 50%, #ad5577 62.5%, #ad5581 75%, #ad5585 87.5%, #ad5590 100%);
+}
+
+#title-team {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+#container-photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#align-container-photos {
+    display: flex;
+    /* width: 100%; */
+    border: 5px solid black;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+
+
+/*FOOTER*/
+#container-footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    margin: 0;
+    /* padding: 2rem 4rem; */
+}
+
+#container-footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+
+}
+
+#container-footer-logo img {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.logo-g4-figurinhas {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-g4-figurinhas img {
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+#contact img {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#contact1 {
+    display: flex;
+    min-width: 295px;
+}
+
+#social-media-icons img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+
+#social-media-icons {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#logo-serratec img {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-serratec {
+    display: flex;
+    align-items: center;
+    min-width: 245px;
+}
+
+
+#Copy {
+
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+#Copy p {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+
+/*BUTTOM-UP-ARROW*/
+
+#divfix {
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    position: fixed;
+    /* z-index: 3000; */
+}
+#up-arrow img{
+    height: 150px;
+    width: 150px;
+}
+
+#up-arrow img:hover{
+    content: url("../assets/img/footer-img/upward-wine.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }
+
+
+/*BUTTOM-UP-ARROW*/

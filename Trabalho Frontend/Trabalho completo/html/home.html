@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Inicial</title>
+  <!--header-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
+    defer></script>
+  <!--header-->
+  <meta name="description"
+    content="A Bootstrap 4 carousel that advances one at a time. This example shows 4 slides on medium, 6 slides on large, and moves one slide at a time. On smaller screens the carousel shows only one slide at a time." />
+  <!--stylesheets / link tags loaded here-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/styleHome.css">
+</head>
+
+<body>
+  <!--HEADER-->
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <h1 class="navbar-brand"><img class="logo" src="../assets/logo/logo-g4-figurinhas.png" alt="logo-g4-figurinhas">
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasNavbarLabel">
+              G4 Figurinhas
+            </h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/aboutus.html">Sobre nós</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contato.html">Contatos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/cadastro.html">Cadastro</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--HEADER-->
+  <div id="container-main" class="my-custom-font">
+    <div id="container-home-1">
+      <p id="text" class="text1">Precisando de figurinha?</p>
+      <p id="text" class="text2"><b>Aqui você encontra!</b></p>
+      <p id="text" class="text3">Frete grátis acima de 10 unidades</p>
+      <a href="./shop.html"><button class="shop-button">Shop ➜</button></a>
+      <!-- arrows ↓↳➜⇢➤▶◀← ↑ → ↓ ↚ ↛ ↜ ↝ ↞ ↟ -->
+    </div>
+    <div id="container-home-2">
+      <div id="description">
+        <h2>Não perca tempo comprando pacotinhos!</h2>
+        <p>Se você é um verdadeiro apaixonado por futebol e pela Copa do Mundo, não pode perder a oportunidade
+          de completar o seu álbum de figurinhas. Comprar em nosso site é muito fácil, rápido e seguro. Não
+          perca mais tempo procurando em lojas físicas ou se frustrando por não encontrar as figurinhas que
+          precisa. Compre agora mesmo em nosso site e sinta a emoção de preencher cada página do seu álbum.
+        </p>
+      </div>
+
+      <!-- BOOTSTRAP -->
+      <div class="container text-center my-3">
+        <div class="title-bt">
+          <h2 class="font-weight-light">TOP 10 figurinhas mais vendidas</h2>
+        </div>
+        <div class="row mx-auto my-auto">
+          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+
+              <div class="carousel-item active">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Argentina_LionelMessi.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Portugal_CristianoRonaldo.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Brasil_NeymarJr.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Croacia_LukaModric.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Argentina_AngelDiMaria.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Brasil_ThiagoSilva.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Uruguai_Arrascaeta.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Brasil_LucasPaqueta.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Portugal_JoaoMoutinho.png">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="col-lg-2 col-md-3">
+                  <img class="img-fluid" src="../assets/img/stickers/Brasil_Casemiro.png">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev bg-dark w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next bg-dark w-auto" href="#recipeCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- BOOTSTRAP -->
+    </div>
+    <div id="container-home-3">
+      <div id="title-team">
+        <h2>Conheça a nossa equipe!</h2>
+      </div>
+      <div id="container-photos">
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/filipe.png" alt="Filipe"></a>
+        </div>
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/joao.jpg" alt="Joao"></a>
+        </div>
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/paulo.jpg" alt="Paulo"></a>
+        </div>
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/rodolpho.jpg" alt="Rodolpho"></a>
+        </div>
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/victor.jpg" alt="Victor"></a>
+        </div>
+        <div class="photo">
+          <a href="../html/aboutus.html"><img src="../assets/img/integrants/yan.png" alt="Yan"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <div id="container-footer">
+      <div id="container-footer-logo">
+        <div class="logo-g4-figurinhas">
+          <img src="../assets/img/footer-img/logo-g4-figurinhas.png" alt="footerlogo">
+        </div>
+        <div id="social-media-icons">
+          <img src="../assets/img/footer-img/icons8-instagram-48.png" alt="insta">
+          <img src="../assets/img/footer-img/icons8-facebook-48.png" alt="face">
+          <img src="../assets/img/footer-img/icons8-twitter-48.png" alt="twitter">
+        </div>
+      </div>
+      <div id="contact">
+        <div id="contact1">
+          <p>
+            <img src="../assets/img/footer-img/icons8-location-48.png" alt="gps">
+            Avenida Desembargador Moreira <br> <br>
+            <img src="../assets/img/footer-img/icons8-mail-48.png" alt="email">
+            G4figurinhas@gmail.com <br> <br>
+            <img src="../assets/img/footer-img/icons8-phone-48.png" alt="telefone">
+            024-91491282 <br> <br>
+          </p>
+        </div>
+
+      </div>
+
+      <div id="logo-serratec">
+        <a href="https://serratec.org/" target="_blank"><img src="../assets/footer/logo-serratec.png" alt="imagem-serratec" ></a>
+      </div>
+     
+    </div>
+
+    <div id="Copy">
+      <p>
+        © Copyright 2023 G4-figurinhas | All Rights Reserved | This site designed and hosted by
+        Enter. <br>
+        Net This site is protected by reCAPTCHA. Our Privacy Policy and Terms of Service apply.
+      </p>
+    </div>
+
+    </div>
+  </footer>
+  <!--FOOTER-->
+
+  <!--BOTAO UPWARD-->
+  <div id="divfix"> 
+    <a id="up-arrow" href="#"><img src="../assets/img/footer-img/upward-gray.png" alt="up-arrow"></a>
+</div>
+<!--BOTAO UPWARD-->
+
+
+
+  <!--scripts loaded here-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="../js/scriptHome.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27%27');
+
+/* Header */
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin: 0;
+    max-width: 150px;
+}
+
+.offcanvas-body {
+    font-size: 20px;
+}
+
+.navbar-toggler-icon {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5)), url("../assets/background-img/hamburguer.png");
+}
+
+.navbar-toggler {
+    border: 1px solid rgb(225, 225, 225);
+}
+
+a .nav-item {
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+
+.offcanvas-body{
+    font-size: 20px;
+}
+
+a .nav-item{
+    font-weight: bold;
+}
+
+body {
+    color: var(--preto);
+    margin-top: 90px;
+}
+
+/* Main */
+
+:root{
+    --branco: #eaeff1;
+    --roxo: #451f4e;
+    --violeta: #73256b;
+    --vermelho: #bc1c2d;
+    --azul: #14017c;
+    --preto: black;
+}
+
+.pageRegister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.divRegister {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 25em;
+    border-radius: 7px;
+    padding: 30px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+    opacity: 0.8;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid var(--violeta);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.divRegister input:focus {
+    border: 1px solid var(--roxo);
+}
+
+label {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: var(--preto);
+    cursor: pointer;
+    transition: all linear 160ms;
+}
+
+a:hover {
+    color: var(--violeta);
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.divSenha {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+#senha {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.divSenha button {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: 5vw; 
+    height: 30px;
+    border: none;
+    cursor: pointer;
+
+    background-image: url(../assets/olho.png);
+    background-color: var(--branco);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.divConfirmacaoSenha {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    position: relative;
+    width: 100%;
+}
+
+#confirmacaoSenha {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#endereco {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.divConfirmacaoSenha button {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: 5vw; 
+    height: 30px;
+    border: none;
+    cursor: pointer; 
+
+    background-image: url(../assets/olho.png);
+    background-color: var(--branco);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.botaoVS {
+    position: absolute;
+    left: 85%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 23px !important;
+    width: 23px !important;
+    background-image: url('caminho_para_o_icone_de_visualização_da_senha.png');
+    opacity: 0.4;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.submit {
+    background-color:#5d051f;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all linear 160ms;
+    cursor: pointer; 
+    padding: 15px;
+    border: 1px solid var(--violeta);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+}
+
+.submit:hover {
+    transform: scale(1.05);
+    background-color: #89192e;
+}
+
+a{
+    font-size: 20px;
+}
+
+/* FOOTER */
+
+#container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%; 
+    margin: 0;
+    padding: 2rem 4rem;
+}
+
+#container-footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+}
+
+#container-footer-logo img {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.logo-g4-figurinhas {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-g4-figurinhas img {
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+#contact img {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#contact1 {
+    display: flex;
+    min-width: 295px;
+}
+
+#social-media-icons img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#social-media-icons {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#logo-serratec img {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-serratec {
+    display: flex;
+    align-items: center;
+    min-width: 245px;
+}
+
+
+#Copy {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Copy p {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* BOTAO UPWARD */
+
+#divfix {
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    position: fixed;
+    z-index: 3000;
+}
+
+#up-arrow img{
+    height: 150px;
+    width: 150px;
+}
+
+#up-arrow img:hover{
+    content: url("../assets/button/upward-wine.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }

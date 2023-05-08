@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap%27%27');
 
+/* Header */
+
 .navbar-brand {
     font-size: 3rem;
     font-weight: bold;
@@ -24,13 +26,6 @@
 .navbar-toggler {
     border: 1px solid rgb(225, 225, 225);
 }
-
-/* .navbar-brand img {
-    max-width: 150px;
-    border: 1px solid red;
-    height: auto;
-    width: 30%;
-} */
 
 a .nav-item {
     font-weight: bold;
@@ -250,3 +245,129 @@ a:hover {
 a{
     font-size: 20px;
 }
+
+/* FOOTER */
+
+#container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%; 
+    margin: 0;
+    padding: 2rem 4rem;
+}
+
+#container-footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 15px;
+}
+
+#container-footer-logo img {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+.logo-g4-figurinhas {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-g4-figurinhas img {
+    min-width: 150px;
+    min-height: 80px;
+    max-width: 250px;
+    max-height: 100px;
+}
+
+
+#contact img {
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#contact1 {
+    display: flex;
+    min-width: 295px;
+}
+
+#social-media-icons img {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+#social-media-icons {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+#logo-serratec img {
+    width: 100%;
+    border: 0;
+    padding: 15px;
+}
+
+#logo-serratec {
+    display: flex;
+    align-items: center;
+    min-width: 245px;
+}
+
+
+#Copy {
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Copy p {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* BOTAO UPWARD */
+
+#divfix {
+    bottom: 0;
+    right: 0;
+    padding: 0px;
+    position: fixed;
+    z-index: 3000;
+}
+
+#up-arrow img{
+    height: 150px;
+    width: 150px;
+}
+
+#up-arrow img:hover{
+    content: url("../assets/button/upward-wine.png");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+   }
