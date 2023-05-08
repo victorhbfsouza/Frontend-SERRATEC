@@ -48,7 +48,9 @@ main{
   display: flex;
   align-items: center !important;
   justify-content: center !important;
-  background-image: url(./assets/Captura\ de\ tela\ 2023-04-29\ 160115.png);
+  background-image: url(../assets/backgroud/backgound.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 .container{
@@ -313,6 +315,3 @@ main{
    background-position: center;
    background-size: cover;
  }
-
-
-/*BUTTOM-UP-ARROW*/

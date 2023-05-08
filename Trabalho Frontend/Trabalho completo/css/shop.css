@@ -12,12 +12,17 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
     font-size: 15px
 }
+
 p{
-    font-size: 15px
+    font-size: 20px !important; 
+}
+
+a{
+    font-size: 20px !important;
 }
 
 .navbar-brand {
-    font-size: 3rem;
+    font-size: 20px;
     font-weight: bold;
     color: red;
     margin: 0;
@@ -52,7 +57,6 @@ a .nav-item {
 }
 
 body {
-    color: var(--preto);
     margin-top: 90px;
 }
 
